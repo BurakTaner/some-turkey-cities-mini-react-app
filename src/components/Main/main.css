@@ -1,0 +1,33 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top:200px;
+}
+
+.cities {
+  margin-top:25px;
+  font-size:23px;
+  line-height: 50px;
+  color:whitesmoke;
+}
+
+.cities > li::marker {
+  font-size:30px;
+  color:aqua
+}
+
+a {
+  color:orange;
+}
+
+a:visited {
+  color:rgba(50, 10, 80, 0.4);
+}
+
+a:hover {
+  color:rgb(12, 56, 200);
+  font-weight: 500;
+}

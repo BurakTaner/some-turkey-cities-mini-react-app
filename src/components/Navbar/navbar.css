@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:15px;
+  background-color:rgba(171, 101, 219, 0.6) ;
+}
+
+.nav-title {
+  color:whitesmoke;
+  font-size: 22.5px;
+}
+
+.nav-logo {
+  width:100%;
+  height: auto;
+  max-width: 70px;
+  margin:15px;
+}
